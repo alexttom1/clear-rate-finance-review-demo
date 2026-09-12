@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ClearRate is a fictional US finance comparison portal demo." />
+    <title>ClearRate — Compare US financial products</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="ClearRate home"><img src="clear-rate-logo-light.svg" alt="ClearRate" /></a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="active" href="#rankings">Credit Cards⌄</a><a href="#rankings">Banking⌄</a><a href="#rankings">Loans⌄</a><a href="#rankings">Investing⌄</a><a href="#guides">Learning⌄</a>
+      </nav>
+      <div class="header-actions"><button class="search-button" aria-label="Search">⌕</button><button class="compare-button" data-action="compare" data-name="Compare tools">Compare tools</button></div><button class="mobile-menu" aria-label="Open menu">☰</button>
+    </header>
+
+    <main id="top" class="page-shell">
+      <div class="demo-banner"><span>ⓘ &nbsp; DEMO SITE</span> This is a fictional website for demonstration purposes only. No real products, brands, or offers are represented.<button aria-label="Dismiss notice">×</button></div>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">FINANCIAL PRODUCT REVIEWS</p>
+          <h1>Compare financial products with a clearer view.</h1>
+          <p class="lede">Independent reviews, side-by-side comparisons, and practical guidance to help you make more informed decisions.</p>
+        </div>
+        <aside class="trust-card">
+          <div class="trust-icon">✓</div>
+          <div><strong>Reviewed by our editorial team</strong><span>Updated September 2026</span></div>
+        </aside>
+      </section>
+
+      <section class="controls" aria-label="Filter offers">
+        <label>Product type<div class="select-wrap"><select id="categoryFilter"><option value="all">All products</option><option value="cards">Credit cards</option><option value="banking">Banking</option><option value="loans">Personal loans</option></select></div></label>
+        <label>Useful for<div class="select-wrap"><select id="profileFilter"><option value="all">Any goal</option><option value="travel">Travel spending</option><option value="building">Building credit</option><option value="low-fees">Keeping fees low</option><option value="flexibility">Flexible borrowing</option></select></div></label>
+        <label>Order by<div class="select-wrap"><select id="sortFilter"><option value="score">ClearRate score</option><option value="apr">Lowest listed APR</option><option value="fee">Lowest annual fee</option></select></div></label>
+      </section>
+
+      <div class="content-grid">
+        <section id="rankings" class="ranking-section">
+          <div class="section-heading"><div><p class="eyebrow">TOP PICKS</p><h2>Best fictional offers in the US</h2></div><span id="resultCount" class="result-count">Showing 6 of 6 products</span></div>
+          <div id="offerList" class="offer-list"></div>
+          <p id="emptyState" class="empty-state" hidden>No fictional offers match those filters. Try a broader selection.</p>
+        </section>
+
+        <aside class="sidebar">
+          <section class="sidebar-card disclosure-card"><p class="eyebrow">ABOUT THESE COMPARISONS</p><h3>What to check before you apply</h3><p>We compare selected products by their main features, fees, flexibility and day-to-day usefulness. Use the shortlist to narrow your options, then review the provider’s current details.</p><p>Rates, terms and eligibility can vary by product and applicant.</p><a href="#methodology">See how we compare →</a></section>
+          <section class="sidebar-card"><p class="eyebrow">BEFORE YOU APPLY</p><h3>Three details that change the decision</h3><ul class="guide-list"><li><span>01</span><div><strong>Total cost</strong><small>APR, annual fees and penalty terms</small></div></li><li><span>02</span><div><strong>Eligibility</strong><small>Credit profile, income and state rules</small></div></li><li><span>03</span><div><strong>Practical fit</strong><small>Rewards, access and customer support</small></div></li></ul></section>
+          <section id="guides" class="sidebar-card newsletter"><p class="eyebrow">FIELD NOTES</p><h3>Practical money explainers, occasionally.</h3><p>Demo form for a future newsletter integration.</p><form id="newsletterForm"><input type="email" placeholder="you@example.com" aria-label="Email address" required /><button type="submit">Join</button></form><small id="newsletterMessage" class="form-message"></small></section>
+        </aside>
+      </div>
+
+      <section class="bottom-cta"><div class="cta-leaf">◢</div><div><h3>A clearer tomorrow starts with better information.</h3><p>Clear, independent, and built around you.</p></div><button class="cta-button" data-action="guide" data-name="Learning center">Explore our learning center&nbsp; →</button></section>
+      <section id="methodology" class="methodology"><div><p class="eyebrow">OUR METHOD</p><h2>Ratings are a starting point, not a promise.</h2></div><p>For this demo, the score is based on product cost, features, flexibility, support and clarity of terms. Partner relationships are disclosed separately. Always review the provider’s current terms before applying.</p></section>
+      <footer><div class="footer-brand"><img src="clear-rate-logo.svg" alt="ClearRate" /></div><span>Fictional product demo • Educational use only</span><span>© 2026 ClearRate</span></footer>
+    </main>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
