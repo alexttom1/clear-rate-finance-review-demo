@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 82" role="img" aria-labelledby="title desc">
+  <title id="title">ClearRate</title><desc id="desc">A simple compass and checkmark mark beside the ClearRate wordmark.</desc>
+  <g transform="translate(4 8)"><circle cx="33" cy="33" r="29" fill="#0f6b54"/><path d="M33 9 39 28l19 5-19 6-6 19-6-19-19-6 19-5 6-19Z" fill="#f7f4ed"/><path d="m20 35 8 8 16-17" fill="none" stroke="#95d9bd" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="85" y="53" fill="#17253d" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" letter-spacing="-1.5">Clear</text><text x="205" y="53" fill="#0f6b54" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" letter-spacing="-1.5">Rate</text>
+</svg>
