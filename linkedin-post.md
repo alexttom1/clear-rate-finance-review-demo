@@ -41,4 +41,4 @@ Email и тематические сообщества могут давать �
 Пример финансового ревью-сайта:
 https://github.com/alexttom1/finance-review
 
-#PerformanceMarketing #AffiliateMarketing #MediaBuying #PaidTraffic #LeadGeneration
+#PerformanceMarketing #AffiliateMarketing #MediaBuying #PaidTraffic #EPC
